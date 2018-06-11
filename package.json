@@ -4,7 +4,8 @@
   "description": "Nexon Talk Web Front page for 20180612",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "rm -rf dist && parcel build && gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "save-svg-as-png": "^1.4.5"
   },
   "devDependencies": {
+    "gh-pages": "^1.2.0",
     "parcel-bundler": "^1.8.1"
   }
 }
