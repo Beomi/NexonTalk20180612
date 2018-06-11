@@ -1,0 +1,25 @@
+{
+  "name": "nexontalk20180612",
+  "version": "1.0.0",
+  "description": "Nexon Talk Web Front page for 20180612",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Beomi/NexonTalk20180612.git"
+  },
+  "author": "beomi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Beomi/NexonTalk20180612/issues"
+  },
+  "homepage": "https://github.com/Beomi/NexonTalk20180612#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  }
+}
